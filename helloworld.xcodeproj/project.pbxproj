@@ -36,6 +36,7 @@
 		760AA6A11AFF86DC003AEF22 /* helloworldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		760AA6A61AFF86DC003AEF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		760AA6A71AFF86DC003AEF22 /* helloworldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldTests.swift; sourceTree = "<group>"; };
+		76B2C6231AFFAB1E00A91BC2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		760AA6831AFF86DB003AEF22 = {
 			isa = PBXGroup;
 			children = (
+				76B2C6231AFFAB1E00A91BC2 /* MyPlayground.playground */,
 				760AA68E1AFF86DB003AEF22 /* helloworld */,
 				760AA6A41AFF86DC003AEF22 /* helloworldTests */,
 				760AA68D1AFF86DB003AEF22 /* Products */,
@@ -409,6 +411,7 @@
 				760AA6AD1AFF86DC003AEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		760AA6AE1AFF86DC003AEF22 /* Build configuration list for PBXNativeTarget "helloworldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +420,7 @@
 				760AA6B01AFF86DC003AEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
