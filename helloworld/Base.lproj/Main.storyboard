@@ -24,17 +24,57 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="97" y="220" width="115" height="40"/>
+                                    <rect key="frame" x="103" y="406" width="115" height="40"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2V-Mj-Ngg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="go"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="97" y="182" width="115" height="30"/>
+                                    <rect key="frame" x="103" y="344" width="115" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="goTagged:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HHL-JQ-oDB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAz-tJ-qC3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="103" y="193" width="115" height="21"/>
+                                </variation>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KrR-FH-hOe">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="15%"/>
+                                    <segment title="20%"/>
+                                    <segment title="25%"/>
+                                </segments>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="46" width="131" height="29"/>
+                                </variation>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Total $" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T12-cW-z6e">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="112" y="99" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-S7-uMw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="calculate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="155" width="115" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YJd-8o-kAo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,17 +82,29 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="N2V-Mj-Ngg"/>
+                                <exclude reference="EAz-tJ-qC3"/>
+                                <exclude reference="KrR-FH-hOe"/>
+                                <exclude reference="T12-cW-z6e"/>
+                                <exclude reference="bMl-S7-uMw"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="N2V-Mj-Ngg"/>
+                                <include reference="EAz-tJ-qC3"/>
+                                <include reference="KrR-FH-hOe"/>
+                                <include reference="T12-cW-z6e"/>
+                                <include reference="bMl-S7-uMw"/>
                             </mask>
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="calButton" destination="bMl-S7-uMw" id="dZj-EZ-OMD"/>
                         <outlet property="helloText" destination="fR1-KQ-slP" id="Gqt-gx-JS9"/>
+                        <outlet property="segmentControl" destination="KrR-FH-hOe" id="3Wc-Sr-p4x"/>
+                        <outlet property="textField" destination="T12-cW-z6e" id="trI-Zz-tbE"/>
+                        <outlet property="tipLabel" destination="EAz-tJ-qC3" id="e0q-cg-99T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

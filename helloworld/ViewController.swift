@@ -10,6 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tipLabel: UILabel!
+    @IBOutlet weak var segmentControl: UISegmentedControl!
+    @IBOutlet weak var textField: UITextField!
+    
+    
+    @IBAction func calButton(sender: AnyObject) {
+        let userInput = textField.text
+        var totalBill : Float = (Float)(userInput.toInt()!)
+        var index : Int = segmentControl.selectedSegmentIndex
+        
+        var rate : [Float] = [0.15 ,0.2 ,0.25]
+        
+        var tipValue : Float = totalBill * rate[index]
+        
+        tipLabel.text = "\(tipValue)"
+    }
+    
     @IBAction func goTagged(sender: AnyObject) {
         helloText.text = "Hello world"
     }
