@@ -10,3 +10,44 @@ var floatVar : Float = 1.1
 
 var strVar : String = "Hello, I am Lei Xu"
 
+// variable in string
+let name = "xl"
+
+let age = 20
+
+
+let sayHello = "Hello, I am \(name),and I am \(age) years old"
+
+//Collections
+
+//array:
+
+var names : [String] = ["xl" , "xulei" , "xulei09"]
+
+names.append("Lei Xu")
+
+names.insert("xl", atIndex: 3)
+
+//directory
+
+var home : [String: Int] = ["home1":1 , "home2":2]
+
+home["home3"] = 3
+
+home["home2"] = nil
+
+home
+
+for(var count = 0; count < 5; count++){
+    home["name\(count)"] = count
+}
+
+for oneName in name {
+    println("Hello I am \(oneName)")
+}
+
+for index in 1...5{
+    println("Current number is \(index)")
+}
+
+
