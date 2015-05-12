@@ -62,7 +62,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="112" y="99" width="97" height="30"/>
+                                    <rect key="frame" x="103" y="99" width="115" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-S7-uMw">
@@ -71,7 +71,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="95" y="155" width="115" height="30"/>
+                                    <rect key="frame" x="103" y="155" width="115" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="calButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YJd-8o-kAo"/>
@@ -100,7 +100,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="calButton" destination="bMl-S7-uMw" id="dZj-EZ-OMD"/>
                         <outlet property="helloText" destination="fR1-KQ-slP" id="Gqt-gx-JS9"/>
                         <outlet property="segmentControl" destination="KrR-FH-hOe" id="3Wc-Sr-p4x"/>
                         <outlet property="textField" destination="T12-cW-z6e" id="trI-Zz-tbE"/>

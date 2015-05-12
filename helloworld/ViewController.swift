@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func calButton(sender: AnyObject) {
-        let userInput = textField.text
-        var totalBill : Float = (Float)(userInput.toInt()!)
+        var userInput = textField.text as NSString
+        var totalBill : Float = userInput.floatValue
         var index : Int = segmentControl.selectedSegmentIndex
         
         var rate : [Float] = [0.15 ,0.2 ,0.25]
