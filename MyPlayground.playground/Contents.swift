@@ -51,3 +51,55 @@ for index in 1...5{
 }
 
 
+class House {
+    var size = 100
+    var owner = "xl"
+    
+    func getInDoor(name : String = "")->Bool{
+        if(name == owner){
+            return true
+        }
+        else{
+            return false
+        }
+    }
+}
+
+var myHouse : House = House()
+
+if(myHouse.getInDoor(name: "xl")){
+    println("Welcome Home")
+}
+else{
+    println("Get out!")
+}
+
+class GogeHouse : House{
+    override init() {
+        super.init()
+        owner = "doge"
+    }
+    
+    override func getInDoor(#name: String) -> Bool {
+        if(name == "doge"){
+            return true
+        }
+        else{
+            return false
+        }
+    }
+}
+
+var dogeHouse : GogeHouse = GogeHouse()
+
+
+
+
+
+
+
+
+
+
+
+

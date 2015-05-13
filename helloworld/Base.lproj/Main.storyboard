@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR1-KQ-slP">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.49999999999999961" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="click GO~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fR1-KQ-slP">
                                 <rect key="frame" x="279" y="258" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.85137308811209367" green="0.8723563762626263" blue="0.8608402481272126" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
@@ -27,16 +27,6 @@
                                     <rect key="frame" x="103" y="406" width="115" height="40"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2V-Mj-Ngg">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="go"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="103" y="344" width="115" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="goTagged:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HHL-JQ-oDB"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAz-tJ-qC3">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -46,6 +36,18 @@
                                     <rect key="frame" x="103" y="193" width="115" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-S7-uMw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="calculate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="103" y="155" width="115" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="calButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YJd-8o-kAo"/>
+                                </connections>
+                            </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KrR-FH-hOe">
                                 <rect key="frame" x="-61" y="-14" width="123" height="29"/>
                                 <segments>
@@ -65,36 +67,34 @@
                                     <rect key="frame" x="103" y="99" width="115" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMl-S7-uMw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2V-Mj-Ngg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="calculate">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" title="go"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="103" y="155" width="115" height="30"/>
+                                    <rect key="frame" x="103" y="354" width="115" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="calButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YJd-8o-kAo"/>
+                                    <action selector="goTagged:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HHL-JQ-oDB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="N2V-Mj-Ngg"/>
                                 <exclude reference="EAz-tJ-qC3"/>
+                                <exclude reference="bMl-S7-uMw"/>
                                 <exclude reference="KrR-FH-hOe"/>
                                 <exclude reference="T12-cW-z6e"/>
-                                <exclude reference="bMl-S7-uMw"/>
+                                <exclude reference="N2V-Mj-Ngg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="N2V-Mj-Ngg"/>
                                 <include reference="EAz-tJ-qC3"/>
+                                <include reference="bMl-S7-uMw"/>
                                 <include reference="KrR-FH-hOe"/>
                                 <include reference="T12-cW-z6e"/>
-                                <include reference="bMl-S7-uMw"/>
+                                <include reference="N2V-Mj-Ngg"/>
                             </mask>
                         </variation>
                     </view>
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="439.5" y="342"/>
+            <point key="canvasLocation" x="-358.5" y="-266"/>
         </scene>
     </scenes>
 </document>
