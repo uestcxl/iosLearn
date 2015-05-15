@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goTagged(sender: AnyObject) {
-        helloText.text = "Hello world"
+//        helloText.text = "Hello world"
+        helloText.text = "لُلُصّبُلُلُصّبُرً رً ॣ ॣ ॣ ॣ"
     }
     @IBOutlet weak var helloText: UILabel!
     override func viewDidLoad() {
