@@ -16,6 +16,7 @@
 		76B9CE9D1B063201002E1EFB /* xl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CE9C1B063201002E1EFB /* xl.jpeg */; };
 		76B9CE9F1B063270002E1EFB /* me.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CE9E1B063270002E1EFB /* me.JPG */; };
 		76B9CEA11B0635DE002E1EFB /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B9CEA01B0635DE002E1EFB /* MoreTableViewController.swift */; };
+		76B9CEA41B072835002E1EFB /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CEA31B072835002E1EFB /* Icon-60@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		76B9CE9C1B063201002E1EFB /* xl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xl.jpeg; path = "../../../../Pictures/照片 图库.photoslibrary/Masters/2014/06/29/20140629-093555/xl.jpeg"; sourceTree = "<group>"; };
 		76B9CE9E1B063270002E1EFB /* me.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.JPG; sourceTree = "<group>"; };
 		76B9CEA01B0635DE002E1EFB /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		76B9CEA31B072835002E1EFB /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +87,15 @@
 		760AA68E1AFF86DB003AEF22 /* helloworld */ = {
 			isa = PBXGroup;
 			children = (
+				76B9CEA21B071E2B002E1EFB /* icon */,
 				760AA6911AFF86DB003AEF22 /* AppDelegate.swift */,
 				760AA6931AFF86DB003AEF22 /* ViewController.swift */,
 				760AA6951AFF86DB003AEF22 /* Main.storyboard */,
 				76B9CEA01B0635DE002E1EFB /* MoreTableViewController.swift */,
 				76B9CE9E1B063270002E1EFB /* me.JPG */,
-				76B9CE9C1B063201002E1EFB /* xl.jpeg */,
 				760AA6981AFF86DB003AEF22 /* Images.xcassets */,
 				760AA69A1AFF86DB003AEF22 /* LaunchScreen.xib */,
+				76B9CEA31B072835002E1EFB /* Icon-60@3x.png */,
 				760AA68F1AFF86DB003AEF22 /* Supporting Files */,
 			);
 			path = helloworld;
@@ -121,6 +124,14 @@
 				760AA6A61AFF86DC003AEF22 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B9CEA21B071E2B002E1EFB /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				76B9CE9C1B063201002E1EFB /* xl.jpeg */,
+			);
+			name = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B9CEA41B072835002E1EFB /* Icon-60@3x.png in Resources */,
 				760AA6971AFF86DB003AEF22 /* Main.storyboard in Resources */,
 				760AA69C1AFF86DB003AEF22 /* LaunchScreen.xib in Resources */,
 				76B9CE9F1B063270002E1EFB /* me.JPG in Resources */,

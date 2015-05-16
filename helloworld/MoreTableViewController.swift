@@ -45,7 +45,7 @@ class MoreTableViewController: UITableViewController {
         let cell:UITableViewCell! = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as? UITableViewCell
 //        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         var oneInterst = interst[indexPath.row]
-        cell.textLabel?.text = oneInterst
+        cell.textLabel?.text = oneInterst+"😀"
         return cell
     }
     
