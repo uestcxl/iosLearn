@@ -10,7 +10,8 @@ import UIKit
 
 class MoreTableViewController: UITableViewController {
     
-    var interst = ["basketball" , "ping pong" , "reading"];
+//    var interst = ["basketball" , "ping pong" , "reading"];
+    var interst = ["Italy","Norway","England","China"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,14 +39,14 @@ class MoreTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 3
+        return interst.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:UITableViewCell! = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as? UITableViewCell
 //        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
         var oneInterst = interst[indexPath.row]
-        cell.textLabel?.text = oneInterst+"😀"
+        cell.textLabel?.text = oneInterst
         return cell
     }
     
