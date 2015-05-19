@@ -203,11 +203,57 @@
                             <outlet property="delegate" destination="gzR-CA-KVU" id="bHA-KJ-hng"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="More" id="Vrd-8R-RmT"/>
+                    <navigationItem key="navigationItem" title="More" id="Vrd-8R-RmT">
+                        <barButtonItem key="rightBarButtonItem" title="map" id="VBq-IH-t20">
+                            <connections>
+                                <segue destination="E0R-Jp-J79" kind="show" id="Ud4-AR-eDz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="axy-1b-U9L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1203" y="-253"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="dj0-95-7eT">
+            <objects>
+                <viewController id="E0R-Jp-J79" customClass="MapViewController" customModule="helloworld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wf6-TH-gsa"/>
+                        <viewControllerLayoutGuide type="bottom" id="s59-tT-ClY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1HV-GH-efY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6MN-MW-kbT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                </variation>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="6MN-MW-kbT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="6MN-MW-kbT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="6MN-MW-kbT" id="k83-Pf-mV7"/>
+                        <outlet property="view" destination="6MN-MW-kbT" id="ipU-RM-aRv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GcC-hb-WQc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1833" y="-253"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zb9-6p-pKb">
