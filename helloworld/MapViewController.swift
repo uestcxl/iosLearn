@@ -31,21 +31,24 @@ class MapViewController: UIViewController , MKMapViewDelegate{
         let spain = MKPointAnnotation()
         spain.coordinate = CLLocationCoordinate2DMake(40.41694, -3.70081)
         spain.title = "Madrid, Spain"
+        
+        let locations = [italy , england , norway , spain]
+        mapView.addAnnotations(locations)
+        
+        var myRegion = MKCoordinateRegionMakeWithDistance(italy.coordinate, 5500000,5500000)
+        mapView.setRegion(myRegion, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+        var pin = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "pinIdentifier" )
+        pin.canShowCallout = true
+        
+        return pin
     }
-    */
 
 }

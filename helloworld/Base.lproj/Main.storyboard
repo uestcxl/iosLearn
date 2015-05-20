@@ -218,7 +218,7 @@
         <!--Map View Controller-->
         <scene sceneID="dj0-95-7eT">
             <objects>
-                <viewController id="E0R-Jp-J79" customClass="MapViewController" customModule="helloworld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="E0R-Jp-J79" customClass="MapViewController" customModule="helloworld" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wf6-TH-gsa"/>
                         <viewControllerLayoutGuide type="bottom" id="s59-tT-ClY"/>
