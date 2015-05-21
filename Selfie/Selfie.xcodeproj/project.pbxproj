@@ -7,46 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76D4DD0D1B0E246900E4773F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4DD0C1B0E246900E4773F /* AppDelegate.swift */; };
-		76D4DD0F1B0E246900E4773F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4DD0E1B0E246900E4773F /* ViewController.swift */; };
-		76D4DD121B0E246900E4773F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D4DD101B0E246900E4773F /* Main.storyboard */; };
-		76D4DD141B0E246900E4773F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D4DD131B0E246900E4773F /* Images.xcassets */; };
-		76D4DD171B0E246900E4773F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D4DD151B0E246900E4773F /* LaunchScreen.xib */; };
-		76D4DD231B0E246900E4773F /* SelfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4DD221B0E246900E4773F /* SelfieTests.swift */; };
+		76D4DD481B0E274300E4773F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4DD471B0E274300E4773F /* AppDelegate.swift */; };
+		76D4DD4A1B0E274300E4773F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4DD491B0E274300E4773F /* ViewController.swift */; };
+		76D4DD4D1B0E274300E4773F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D4DD4B1B0E274300E4773F /* Main.storyboard */; };
+		76D4DD4F1B0E274300E4773F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D4DD4E1B0E274300E4773F /* Images.xcassets */; };
+		76D4DD521B0E274300E4773F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76D4DD501B0E274300E4773F /* LaunchScreen.xib */; };
+		76D4DD5E1B0E274300E4773F /* SelfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D4DD5D1B0E274300E4773F /* SelfieTests.swift */; };
+		76D4DD681B0E274E00E4773F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4DD671B0E274E00E4773F /* Social.framework */; };
+		76D4DD6A1B0E275500E4773F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4DD691B0E275500E4773F /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		76D4DD1D1B0E246900E4773F /* PBXContainerItemProxy */ = {
+		76D4DD581B0E274300E4773F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 76D4DCFF1B0E246900E4773F /* Project object */;
+			containerPortal = 76D4DD3A1B0E274300E4773F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 76D4DD061B0E246900E4773F;
+			remoteGlobalIDString = 76D4DD411B0E274300E4773F;
 			remoteInfo = Selfie;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76D4DD071B0E246900E4773F /* Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D4DD0B1B0E246900E4773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76D4DD0C1B0E246900E4773F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76D4DD0E1B0E246900E4773F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		76D4DD111B0E246900E4773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76D4DD131B0E246900E4773F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		76D4DD161B0E246900E4773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		76D4DD1C1B0E246900E4773F /* SelfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D4DD211B0E246900E4773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76D4DD221B0E246900E4773F /* SelfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieTests.swift; sourceTree = "<group>"; };
+		76D4DD421B0E274300E4773F /* Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D4DD461B0E274300E4773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4DD471B0E274300E4773F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76D4DD491B0E274300E4773F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76D4DD4C1B0E274300E4773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76D4DD4E1B0E274300E4773F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76D4DD511B0E274300E4773F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76D4DD571B0E274300E4773F /* SelfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D4DD5C1B0E274300E4773F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4DD5D1B0E274300E4773F /* SelfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieTests.swift; sourceTree = "<group>"; };
+		76D4DD671B0E274E00E4773F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		76D4DD691B0E275500E4773F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76D4DD041B0E246900E4773F /* Frameworks */ = {
+		76D4DD3F1B0E274300E4773F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D4DD6A1B0E275500E4773F /* MobileCoreServices.framework in Frameworks */,
+				76D4DD681B0E274E00E4773F /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D4DD191B0E246900E4773F /* Frameworks */ = {
+		76D4DD541B0E274300E4773F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +62,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		76D4DCFE1B0E246900E4773F = {
+		76D4DD391B0E274300E4773F = {
 			isa = PBXGroup;
 			children = (
-				76D4DD091B0E246900E4773F /* Selfie */,
-				76D4DD1F1B0E246900E4773F /* SelfieTests */,
-				76D4DD081B0E246900E4773F /* Products */,
+				76D4DD691B0E275500E4773F /* MobileCoreServices.framework */,
+				76D4DD671B0E274E00E4773F /* Social.framework */,
+				76D4DD441B0E274300E4773F /* Selfie */,
+				76D4DD5A1B0E274300E4773F /* SelfieTests */,
+				76D4DD431B0E274300E4773F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		76D4DD081B0E246900E4773F /* Products */ = {
+		76D4DD431B0E274300E4773F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76D4DD071B0E246900E4773F /* Selfie.app */,
-				76D4DD1C1B0E246900E4773F /* SelfieTests.xctest */,
+				76D4DD421B0E274300E4773F /* Selfie.app */,
+				76D4DD571B0E274300E4773F /* SelfieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76D4DD091B0E246900E4773F /* Selfie */ = {
+		76D4DD441B0E274300E4773F /* Selfie */ = {
 			isa = PBXGroup;
 			children = (
-				76D4DD0C1B0E246900E4773F /* AppDelegate.swift */,
-				76D4DD0E1B0E246900E4773F /* ViewController.swift */,
-				76D4DD101B0E246900E4773F /* Main.storyboard */,
-				76D4DD131B0E246900E4773F /* Images.xcassets */,
-				76D4DD151B0E246900E4773F /* LaunchScreen.xib */,
-				76D4DD0A1B0E246900E4773F /* Supporting Files */,
+				76D4DD471B0E274300E4773F /* AppDelegate.swift */,
+				76D4DD491B0E274300E4773F /* ViewController.swift */,
+				76D4DD4B1B0E274300E4773F /* Main.storyboard */,
+				76D4DD4E1B0E274300E4773F /* Images.xcassets */,
+				76D4DD501B0E274300E4773F /* LaunchScreen.xib */,
+				76D4DD451B0E274300E4773F /* Supporting Files */,
 			);
 			path = Selfie;
 			sourceTree = "<group>";
 		};
-		76D4DD0A1B0E246900E4773F /* Supporting Files */ = {
+		76D4DD451B0E274300E4773F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76D4DD0B1B0E246900E4773F /* Info.plist */,
+				76D4DD461B0E274300E4773F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76D4DD1F1B0E246900E4773F /* SelfieTests */ = {
+		76D4DD5A1B0E274300E4773F /* SelfieTests */ = {
 			isa = PBXGroup;
 			children = (
-				76D4DD221B0E246900E4773F /* SelfieTests.swift */,
-				76D4DD201B0E246900E4773F /* Supporting Files */,
+				76D4DD5D1B0E274300E4773F /* SelfieTests.swift */,
+				76D4DD5B1B0E274300E4773F /* Supporting Files */,
 			);
 			path = SelfieTests;
 			sourceTree = "<group>";
 		};
-		76D4DD201B0E246900E4773F /* Supporting Files */ = {
+		76D4DD5B1B0E274300E4773F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76D4DD211B0E246900E4773F /* Info.plist */,
+				76D4DD5C1B0E274300E4773F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +123,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76D4DD061B0E246900E4773F /* Selfie */ = {
+		76D4DD411B0E274300E4773F /* Selfie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76D4DD261B0E246900E4773F /* Build configuration list for PBXNativeTarget "Selfie" */;
+			buildConfigurationList = 76D4DD611B0E274300E4773F /* Build configuration list for PBXNativeTarget "Selfie" */;
 			buildPhases = (
-				76D4DD031B0E246900E4773F /* Sources */,
-				76D4DD041B0E246900E4773F /* Frameworks */,
-				76D4DD051B0E246900E4773F /* Resources */,
+				76D4DD3E1B0E274300E4773F /* Sources */,
+				76D4DD3F1B0E274300E4773F /* Frameworks */,
+				76D4DD401B0E274300E4773F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +137,46 @@
 			);
 			name = Selfie;
 			productName = Selfie;
-			productReference = 76D4DD071B0E246900E4773F /* Selfie.app */;
+			productReference = 76D4DD421B0E274300E4773F /* Selfie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		76D4DD1B1B0E246900E4773F /* SelfieTests */ = {
+		76D4DD561B0E274300E4773F /* SelfieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76D4DD291B0E246900E4773F /* Build configuration list for PBXNativeTarget "SelfieTests" */;
+			buildConfigurationList = 76D4DD641B0E274300E4773F /* Build configuration list for PBXNativeTarget "SelfieTests" */;
 			buildPhases = (
-				76D4DD181B0E246900E4773F /* Sources */,
-				76D4DD191B0E246900E4773F /* Frameworks */,
-				76D4DD1A1B0E246900E4773F /* Resources */,
+				76D4DD531B0E274300E4773F /* Sources */,
+				76D4DD541B0E274300E4773F /* Frameworks */,
+				76D4DD551B0E274300E4773F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				76D4DD1E1B0E246900E4773F /* PBXTargetDependency */,
+				76D4DD591B0E274300E4773F /* PBXTargetDependency */,
 			);
 			name = SelfieTests;
 			productName = SelfieTests;
-			productReference = 76D4DD1C1B0E246900E4773F /* SelfieTests.xctest */;
+			productReference = 76D4DD571B0E274300E4773F /* SelfieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		76D4DCFF1B0E246900E4773F /* Project object */ = {
+		76D4DD3A1B0E274300E4773F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "徐磊";
 				TargetAttributes = {
-					76D4DD061B0E246900E4773F = {
+					76D4DD411B0E274300E4773F = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					76D4DD1B1B0E246900E4773F = {
+					76D4DD561B0E274300E4773F = {
 						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 76D4DD061B0E246900E4773F;
+						TestTargetID = 76D4DD411B0E274300E4773F;
 					};
 				};
 			};
-			buildConfigurationList = 76D4DD021B0E246900E4773F /* Build configuration list for PBXProject "Selfie" */;
+			buildConfigurationList = 76D4DD3D1B0E274300E4773F /* Build configuration list for PBXProject "Selfie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +184,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 76D4DCFE1B0E246900E4773F;
-			productRefGroup = 76D4DD081B0E246900E4773F /* Products */;
+			mainGroup = 76D4DD391B0E274300E4773F;
+			productRefGroup = 76D4DD431B0E274300E4773F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76D4DD061B0E246900E4773F /* Selfie */,
-				76D4DD1B1B0E246900E4773F /* SelfieTests */,
+				76D4DD411B0E274300E4773F /* Selfie */,
+				76D4DD561B0E274300E4773F /* SelfieTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		76D4DD051B0E246900E4773F /* Resources */ = {
+		76D4DD401B0E274300E4773F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D4DD121B0E246900E4773F /* Main.storyboard in Resources */,
-				76D4DD171B0E246900E4773F /* LaunchScreen.xib in Resources */,
-				76D4DD141B0E246900E4773F /* Images.xcassets in Resources */,
+				76D4DD4D1B0E274300E4773F /* Main.storyboard in Resources */,
+				76D4DD521B0E274300E4773F /* LaunchScreen.xib in Resources */,
+				76D4DD4F1B0E274300E4773F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D4DD1A1B0E246900E4773F /* Resources */ = {
+		76D4DD551B0E274300E4773F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +216,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76D4DD031B0E246900E4773F /* Sources */ = {
+		76D4DD3E1B0E274300E4773F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D4DD0F1B0E246900E4773F /* ViewController.swift in Sources */,
-				76D4DD0D1B0E246900E4773F /* AppDelegate.swift in Sources */,
+				76D4DD4A1B0E274300E4773F /* ViewController.swift in Sources */,
+				76D4DD481B0E274300E4773F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D4DD181B0E246900E4773F /* Sources */ = {
+		76D4DD531B0E274300E4773F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D4DD231B0E246900E4773F /* SelfieTests.swift in Sources */,
+				76D4DD5E1B0E274300E4773F /* SelfieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76D4DD1E1B0E246900E4773F /* PBXTargetDependency */ = {
+		76D4DD591B0E274300E4773F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76D4DD061B0E246900E4773F /* Selfie */;
-			targetProxy = 76D4DD1D1B0E246900E4773F /* PBXContainerItemProxy */;
+			target = 76D4DD411B0E274300E4773F /* Selfie */;
+			targetProxy = 76D4DD581B0E274300E4773F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		76D4DD101B0E246900E4773F /* Main.storyboard */ = {
+		76D4DD4B1B0E274300E4773F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				76D4DD111B0E246900E4773F /* Base */,
+				76D4DD4C1B0E274300E4773F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		76D4DD151B0E246900E4773F /* LaunchScreen.xib */ = {
+		76D4DD501B0E274300E4773F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				76D4DD161B0E246900E4773F /* Base */,
+				76D4DD511B0E274300E4773F /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +263,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		76D4DD241B0E246900E4773F /* Debug */ = {
+		76D4DD5F1B0E274300E4773F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		76D4DD251B0E246900E4773F /* Release */ = {
+		76D4DD601B0E274300E4773F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +344,7 @@
 			};
 			name = Release;
 		};
-		76D4DD271B0E246900E4773F /* Debug */ = {
+		76D4DD621B0E274300E4773F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		76D4DD281B0E246900E4773F /* Release */ = {
+		76D4DD631B0E274300E4773F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,7 +364,7 @@
 			};
 			name = Release;
 		};
-		76D4DD2A1B0E246900E4773F /* Debug */ = {
+		76D4DD651B0E274300E4773F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		76D4DD2B1B0E246900E4773F /* Release */ = {
+		76D4DD661B0E274300E4773F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -393,32 +401,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76D4DD021B0E246900E4773F /* Build configuration list for PBXProject "Selfie" */ = {
+		76D4DD3D1B0E274300E4773F /* Build configuration list for PBXProject "Selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76D4DD241B0E246900E4773F /* Debug */,
-				76D4DD251B0E246900E4773F /* Release */,
+				76D4DD5F1B0E274300E4773F /* Debug */,
+				76D4DD601B0E274300E4773F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76D4DD261B0E246900E4773F /* Build configuration list for PBXNativeTarget "Selfie" */ = {
+		76D4DD611B0E274300E4773F /* Build configuration list for PBXNativeTarget "Selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76D4DD271B0E246900E4773F /* Debug */,
-				76D4DD281B0E246900E4773F /* Release */,
+				76D4DD621B0E274300E4773F /* Debug */,
+				76D4DD631B0E274300E4773F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		76D4DD291B0E246900E4773F /* Build configuration list for PBXNativeTarget "SelfieTests" */ = {
+		76D4DD641B0E274300E4773F /* Build configuration list for PBXNativeTarget "SelfieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76D4DD2A1B0E246900E4773F /* Debug */,
-				76D4DD2B1B0E246900E4773F /* Release */,
+				76D4DD651B0E274300E4773F /* Debug */,
+				76D4DD661B0E274300E4773F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 76D4DCFF1B0E246900E4773F /* Project object */;
+	rootObject = 76D4DD3A1B0E274300E4773F /* Project object */;
 }
