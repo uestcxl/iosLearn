@@ -20,6 +20,8 @@
 		76B9CEA11B0635DE002E1EFB /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B9CEA01B0635DE002E1EFB /* MoreTableViewController.swift */; };
 		76B9CEA41B072835002E1EFB /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B9CEA31B072835002E1EFB /* Icon-60@3x.png */; };
 		76B9CEA61B08C950002E1EFB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B9CEA51B08C950002E1EFB /* CoreLocation.framework */; };
+		76D4DCFB1B0E22C300E4773F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4DCFA1B0E22C300E4773F /* MobileCoreServices.framework */; };
+		76D4DCFD1B0E238400E4773F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D4DCFC1B0E238400E4773F /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 760AA68B1AFF86DB003AEF22;
 			remoteInfo = helloworld;
+		};
+		76D4DD311B0E246900E4773F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D4DD2C1B0E246900E4773F /* Selfie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76D4DD071B0E246900E4773F;
+			remoteInfo = Selfie;
+		};
+		76D4DD331B0E246900E4773F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D4DD2C1B0E246900E4773F /* Selfie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76D4DD1C1B0E246900E4773F;
+			remoteInfo = SelfieTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +67,9 @@
 		76B9CEA01B0635DE002E1EFB /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		76B9CEA31B072835002E1EFB /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
 		76B9CEA51B08C950002E1EFB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		76D4DCFA1B0E22C300E4773F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		76D4DCFC1B0E238400E4773F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		76D4DD2C1B0E246900E4773F /* Selfie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Selfie.xcodeproj; path = Selfie/Selfie.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D4DCFD1B0E238400E4773F /* Social.framework in Frameworks */,
+				76D4DCFB1B0E22C300E4773F /* MobileCoreServices.framework in Frameworks */,
 				76717ADF1B0B7761006367D0 /* MapKit.framework in Frameworks */,
 				76B9CEA61B08C950002E1EFB /* CoreLocation.framework in Frameworks */,
 			);
@@ -76,6 +97,9 @@
 		760AA6831AFF86DB003AEF22 = {
 			isa = PBXGroup;
 			children = (
+				76D4DD2C1B0E246900E4773F /* Selfie.xcodeproj */,
+				76D4DCFC1B0E238400E4773F /* Social.framework */,
+				76D4DCFA1B0E22C300E4773F /* MobileCoreServices.framework */,
 				76717ADE1B0B7761006367D0 /* MapKit.framework */,
 				76B9CEA51B08C950002E1EFB /* CoreLocation.framework */,
 				76B2C6231AFFAB1E00A91BC2 /* MyPlayground.playground */,
@@ -143,6 +167,15 @@
 				76B9CE9C1B063201002E1EFB /* xl.jpeg */,
 			);
 			name = icon;
+			sourceTree = "<group>";
+		};
+		76D4DD2D1B0E246900E4773F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D4DD321B0E246900E4773F /* Selfie.app */,
+				76D4DD341B0E246900E4773F /* SelfieTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +250,12 @@
 			mainGroup = 760AA6831AFF86DB003AEF22;
 			productRefGroup = 760AA68D1AFF86DB003AEF22 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 76D4DD2D1B0E246900E4773F /* Products */;
+					ProjectRef = 76D4DD2C1B0E246900E4773F /* Selfie.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				760AA68B1AFF86DB003AEF22 /* helloworld */,
@@ -224,6 +263,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		76D4DD321B0E246900E4773F /* Selfie.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Selfie.app;
+			remoteRef = 76D4DD311B0E246900E4773F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		76D4DD341B0E246900E4773F /* SelfieTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SelfieTests.xctest;
+			remoteRef = 76D4DD331B0E246900E4773F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		760AA68A1AFF86DB003AEF22 /* Resources */ = {
